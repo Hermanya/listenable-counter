@@ -11,8 +11,8 @@ say(`Counter value is ${value}`).then(() => listenForUserInput({
 }))
 ```
 
-To be used outside the listenable browser, both `say` and `listenForUserInput` need to be [polyfilled](https://hermanya.github.io/listenable-browser/support-for-other-browsers.js) like so:
+I also added a [polyfill](https://hermanya.github.io/listenable-browser/support_for_other_browsers.js) for other than listenable browsers:
 
 ```html
-<script src="https://hermanya.github.io/listenable-browser/support-for-other-browsers.js"></script>
+<script src="https://hermanya.github.io/listenable-browser/support_for_other_browsers.js"></script>
 ```
