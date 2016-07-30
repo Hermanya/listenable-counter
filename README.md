@@ -1,5 +1,5 @@
-Counter example for listenable browser
---------------------------------------
+Counter example for [listenable browser](https://github.com/hermanya/listenable-browser)
+----------------------------------------------------------------------------------------
 
 This repo is basically a clone of [redux counter example](https://github.com/reactjs/redux/tree/master/examples/counter). The only modification I made is I added following code in ./components/Counter.js's `render` method:
 ```javascript
